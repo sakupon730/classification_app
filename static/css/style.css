@@ -1,0 +1,113 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html,body,h1,h2,h3,h4,ul,ol,dl,li,dt,dd,p,div,span,img,a,table,tr,th,td{
+    border: 0;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+  
+article,
+header,
+footer,
+aside,
+figure,
+figcaption,
+nav,
+section{
+    display: block;
+}
+  
+body{
+    line-height: 1;
+}
+  
+ol,
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+  
+main{
+    display:block; /* for IE11 */
+}
+
+
+/* top-container */
+top-container {
+    width: 100%;
+    height: 10%;
+}
+h1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:ivory;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:indianred;
+}
+
+
+/* メイン */
+#main-box {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/* form */
+#form {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#submit {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+/* 画像の位置 */
+#result {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#result p {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.result {
+    font-style:normal;
+    font-weight: bold;
+    color:indianred;
+}
