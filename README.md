@@ -84,3 +84,7 @@ $ flask run
 
 1. 下記のような画面が表示されたらOK. 
 <img src='./src/test_result.png'>
+
+
+# 参考文献
+https://www.udemy.com/course/tensorflow-advanced/
