@@ -78,8 +78,8 @@ def upload_file():
 
         # 画像を読み込み
         image = Image.open(filepath)
-        if pil_img.size[0] != pil_img.size[1]:
-            image = np.array(expand2square(pil_img))
+        if image.size[0] != image.size[1]:
+            image = np.array(expand2square(image))
         image = cv2.resize(image, (224, 224)).transpose(2,0,1)
         image = torch.from_numpy(image.astype(np.float32)).clone()
         image = image.unsqueeze(0)
