@@ -1,8 +1,13 @@
-# 注意
-pyenvはインストールされている前提. 
-インストールされていない場合は, https://qiita.com/koooooo/items/b21d87ffe2b56d0c589b を参照.
+# ファイルの説明
+- classification.ipynb
+  - ckptモデル作成のためのファイル
+- predict.py
+  - Flaskを立ち上げるためのファイル:wq
 
-# 環境構築手順
+# Flask環境構築手順
+※ pyenvはインストールされている前提.  
+インストールされていない場合は, https://qiita.com/koooooo/items/b21d87ffe2b56d0c589b を参照.  
+
 1. pyenvを用いてpythonをインストール. 3.7以上だと互換性云々で弾かれるので, 下記のバージョンでインストールすること.
 ```
 $ pyenv install 3.6.5
