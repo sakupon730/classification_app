@@ -53,6 +53,7 @@ app = Flask(__name__)
 
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'gif'])
 UPLOAD_FOLDER = './static/images'
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 def allowed_file(filename):
